@@ -1,0 +1,15 @@
+:root {
+    --bg: #F9F4FB;
+    --white: #FFFFFF;
+
+    --pink: #B52184;
+    --purple: #312D64;
+    --purple-gradient: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
