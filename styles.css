@@ -21,7 +21,7 @@ header {
 }
 
 header {
-    height: 679px;
+    height: 42rem;
     background: var(--bg);
 }
 
@@ -39,7 +39,7 @@ header {
 }
 
 h1 {
-    font-size: 32px);
+    font-size: 2rem;
     color: var(--pink);
     font-weight: 900;
     line-height: 40px;
@@ -47,10 +47,73 @@ h1 {
 
 .subtitle {
     color: var(--purple);
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 25px;
 }
 
 .hero-text-box img {
     margin-top: 35px;
+    cursor: pointer;
 }
+
+main {
+    height: 77rem;
+    background: var(--purple-gradient);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 49px;
+}
+
+.planet-card {
+    width: 22rem;
+    height: 21rem;
+    background: var(--white);
+    border-radius: 1.2rem;
+
+    padding: 1.6rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    gap: 1rem;
+  
+}
+
+.planet-card img {
+    width: 5rem;
+    height: 5rem;
+
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.title {
+    font-size: 1.8rem;
+    color: var(--pink);
+    font-style: normal;
+    font-weight: 900;
+
+    top: 12px;
+    position: relative;
+}
+
+.text {
+    font-size: 1rem;
+    color: var(--purple);
+    font-style: normal;
+    font-weight: 600;
+}
+
