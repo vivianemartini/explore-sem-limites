@@ -7,9 +7,50 @@
     --purple-gradient: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
 }
 
-body {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    height: 679px;
+    background: var(--bg);
+}
+
+.hero-box img {
+    height: 23rem;
+    width: 23rem;
+}
+
+.hero-text-box {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+h1 {
+    font-size: 32px);
+    color: var(--pink);
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.subtitle {
+    color: var(--purple);
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.hero-text-box img {
+    margin-top: 35px;
 }
