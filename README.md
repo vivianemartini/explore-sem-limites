@@ -11,3 +11,5 @@ Pontos considerados durante a construção do projeto:
 - Carinho para a acessibilidade: cuide da semântica do seu HTML.
 
 ## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
